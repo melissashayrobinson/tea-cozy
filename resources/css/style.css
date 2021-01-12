@@ -44,7 +44,7 @@ a {
 .jumbotron {
 	margin-top: 70px;
 	text-align: center;
-	background-image: url("./resources/images/img-mission-background.jpg");
+	background-image: url("../images/img-mission-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: calc(100vh - 70px);
@@ -113,7 +113,7 @@ address {
 }
 
 .locations {
-	background-image: url('./resources/images/img-locations-background.jpg');
+	background-image: url("../images/img-locations-background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
