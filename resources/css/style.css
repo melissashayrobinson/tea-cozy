@@ -77,13 +77,10 @@ h5 {
 
 address {
 	font-style: normal;
+	color: rgba(255,245,238,1);
 	font-size: 1.25rem;
-	line-height: 2.5rem;
+	line-height: 3.5rem;
 	padding-bottom: 2rem;
-}
-
-.black {
-	background-color: black;
 }
 
 .monthly {
@@ -100,13 +97,13 @@ address {
 	justify-content: center;
 }
 
-.cards {
+.monthly .cards {
 	min-width: 300px;
 	margin: 10px 15px;
 	text-align: center;
 }
 
-.cards img {
+.monthly .cards img {
 	width: auto;
 	height: 200px;
 	overflow: hidden;
@@ -117,12 +114,19 @@ address {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: calc(100vh - 70px);
+	height: 500px;
 	
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
+}
+
+.locations .cards {
+	min-width: 300px;
+	margin: 10px 20px;
+	text-align: center;
+	background-color: black;
 }
 
 footer {
